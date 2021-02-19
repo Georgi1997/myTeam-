@@ -1,0 +1,145 @@
+h1.heading-large {
+  font-size: 10rem;
+  line-height: 10rem;
+  @media only screen and (max-width: 500px) {
+    font-size: 7rem;
+  }
+}
+
+h1.heading-small {
+  font-size: 6.4rem;
+  line-height: 5.6rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  @media only screen and (max-width: 500px) {
+    font-size: 4rem;
+  }
+}
+h3 {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+p.main-paragraph {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+p.secondary-paragraph {
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+//BUTTONS
+.btn {
+  &,
+  &:link,
+  &:visited {
+    padding: 1rem 3rem;
+    border-radius: 10rem;
+
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: all 0.5s ease;
+  }
+  &-primary {
+    border: 2px solid $color-white;
+    color: $color-white;
+    &:hover,
+    &:active {
+      background-color: $color-white;
+      color: $color-sacramento-green;
+    }
+  }
+
+  &-secondary {
+    &,
+    &:visited,
+    &:link {
+      border: 2px solid $color-sacramento-green;
+      color: $color-sacramento-green;
+
+      &:hover,
+      &:active {
+        background-color: $color-sacramento-green;
+        color: $color-white;
+      }
+    }
+  }
+}
+
+//Responsive navbar
+//Responsive navbar
+//Responsive navbar
+.burger div {
+  width: 24px;
+  height: 3px;
+  background-color: $color-white;
+  margin-top: 5px;
+  display: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.triggerAnim .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.triggerAnim .line2 {
+  opacity: 0;
+}
+.triggerAnim .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.nav-active {
+  transform: translateX(0) !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .burger div {
+    display: block;
+    position: relative;
+    z-index: 1001;
+  }
+  .navbar {
+  }
+
+  .navbar__nav {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    background-color: $color-police-blue;
+    width: 50vw !important;
+    height: 50vh;
+    transform: translateX(120%);
+    transition: all 0.5s ease;
+
+    .navbar__list {
+      flex-direction: column;
+    }
+  }
+}
+
+@keyframes animateNavItem {
+  0% {
+    transform: translateX(50%);
+  }
+
+  50% {
+    transform: translateX(-5rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  &__logo {
+    margin-right: 5rem;
+    @media only screen and (max-width: 800px) {
+      margin-right: 2rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__item {
+    padding: 1.5rem 3rem;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      font-size: 1.8rem;
+      text-decoration: none;
+      color: $color-white;
+      transition: color 0.5s ease;
+
+      &:hover,
+      &:active {
+        color: $color-primary-coral;
+      }
+    }
+  }
+}

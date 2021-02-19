@@ -1,0 +1,49 @@
+.header-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.features-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.testimonials-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.ready-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media only screen and (max-width: 850px) {
+    flex-direction: column;
+  }
+}
+
+.footer-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media only screen and (max-width: 950px) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+///ABOUT
+
+.meet-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.clients-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}

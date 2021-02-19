@@ -1,0 +1,110 @@
+section.section-testimonials {
+  background-color: $color-jungle-green;
+  background-image: url(../images/bg-pattern-home-4-about-3.svg),
+    url(../images/bg-pattern-home-5.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+.testimonials {
+  padding: 15rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  @media only screen and (max-width: 600px) {
+    padding: 7rem 5rem;
+  }
+
+  &__heading {
+    color: $color-white;
+    width: 70%;
+    margin-bottom: 10rem;
+
+    h2 {
+      span {
+        color: $color-rapture-blue;
+      }
+    }
+  }
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5rem;
+    @media only screen and (max-width: 1050px) {
+      grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+      row-gap: 10rem;
+    }
+
+    &__text {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__quotes {
+        display: block;
+        position: absolute;
+        top: -3rem;
+        z-index: 1;
+      }
+      p.secondary-paragraph {
+        position: relative;
+        z-index: 2;
+        color: $color-white;
+        margin-bottom: 3rem;
+        width: 100%;
+        @media only screen and (max-width: 1050px) {
+          width: 70%;
+        }
+      }
+
+      h3 {
+        color: $color-rapture-blue;
+      }
+      span {
+        font-size: 1.3rem;
+        color: $color-white;
+        font-weight: 300;
+        font-style: italic;
+      }
+    }
+
+    &__img {
+      margin-top: 2rem;
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      border: 2px solid $color-rapture-blue;
+    }
+  }
+
+  &__heading__quotes {
+  }
+}
+
+////////////////////section ready
+////////////////////section ready
+////////////////////section ready
+.section-ready {
+  background-color: $color-primary-coral;
+  background-image: url(../images/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding: 7rem 10rem;
+  @media only screen and (max-width: 850px) {
+    text-align: center;
+  }
+  @media only screen and (max-width: 450px) {
+    background-position: bottom left -10rem;
+  }
+
+  @media only screen and (max-width: 850px) {
+    .btn.btn-secondary {
+      margin-top: 5rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    padding: 5rem 5rem;
+  }
+}
