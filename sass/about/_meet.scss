@@ -93,7 +93,8 @@ section.section-meet {
           margin-right: 1rem;
           cursor: pointer;
           transition: color 0.4s ease;
-          &:hover {
+          &:hover,
+          &:active {
             color: $color-primary-coral;
           }
         }

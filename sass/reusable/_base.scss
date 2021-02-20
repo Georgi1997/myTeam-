@@ -23,7 +23,8 @@ $color-dark-green: #002529;
 
 html {
   font-size: 62.5%; //1rem = 10px;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  position: relative;
   scroll-behavior: smooth;
   @media only screen and (max-width: 700px) {
     font-size: 55%;
@@ -35,7 +36,8 @@ html {
 
 body {
   font-family: "Livvic", sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  position: relative;
 }
 
 h1,
