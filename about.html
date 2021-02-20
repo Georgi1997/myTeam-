@@ -17,6 +17,8 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
+    <!-- aos css -->
+    <link rel="stylesheet" href="aos/dist/aos.css" />
     <!-- personal css -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Frontend Mentor | myteam website challenge - About</title>
@@ -44,10 +46,18 @@
           </div>
         </nav>
         <div class="about">
-          <div class="about__heading">
+          <div
+            class="about__heading"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <h1 class="heading-small">About</h1>
           </div>
-          <div class="about__info">
+          <div
+            class="about__info"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <p class="main-paragraph">
               We help companies build dynamic teams made up of top global
               talent. Using our network of passionate professionals we drive
@@ -64,7 +74,11 @@
         <div class="meet-wrapper">
           <h2>Meet the directors</h2>
           <div class="meet">
-            <div class="card-container">
+            <div
+              class="card-container"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+            >
               <div class="meet__card meet__card-visible showCard">
                 <img
                   src="images/avatar-nikita.jpg"
@@ -89,7 +103,12 @@
                 </div>
               </div>
             </div>
-            <div class="card-container">
+            <div
+              class="card-container"
+              data-aos="flip-right"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+            >
               <div class="meet__card meet__card-visible showCard">
                 <img
                   src="images/avatar-christian.jpg"
@@ -114,7 +133,12 @@
                 </div>
               </div>
             </div>
-            <div class="card-container">
+            <div
+              class="card-container"
+              data-aos="flip-left"
+              data-aos-duration="2000"
+              data-aos-delay="500"
+            >
               <div class="meet__card meet__card-visible showCard">
                 <img
                   src="images/avatar-cruz.jpg"
@@ -139,7 +163,12 @@
                 </div>
               </div>
             </div>
-            <div class="card-container">
+            <div
+              class="card-container"
+              data-aos="flip-right"
+              data-aos-duration="2500"
+              data-aos-delay="700"
+            >
               <div class="meet__card meet__card-visible showCard">
                 <img
                   src="images/avatar-drake.jpg"
@@ -164,7 +193,12 @@
                 </div>
               </div>
             </div>
-            <div class="card-container">
+            <div
+              class="card-container"
+              data-aos="flip-left"
+              data-aos-duration="3000"
+              data-aos-delay="900"
+            >
               <div class="meet__card meet__card-visible showCard">
                 <img
                   src="images/avatar-griffin.jpg"
@@ -189,7 +223,12 @@
                 </div>
               </div>
             </div>
-            <div class="card-container">
+            <div
+              class="card-container"
+              data-aos="flip-right"
+              data-aos-duration="3000"
+              data-aos-delay="1100"
+            >
               <div class="meet__card meet__card-visible showCard">
                 <img
                   src="images/avatar-aden.jpg"
@@ -291,6 +330,8 @@
         </div>
       </div>
     </footer>
+    <!-- aos js -->
+    <script src="aos/dist/aos.js"></script>
     <!-- personal js -->
     <script src="app.js"></script>
   </body>

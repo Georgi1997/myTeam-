@@ -1,3 +1,6 @@
+//AOS INITILIAIZE
+AOS.init();
+
 //Responsive navbar
 const navBtn = document.querySelector(".burger");
 const nav = document.querySelector(".navbar__nav");

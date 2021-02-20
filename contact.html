@@ -17,6 +17,8 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
+    <!-- aos css -->
+    <link rel="stylesheet" href="aos/dist/aos.css" />
     <!-- personal css -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Frontend Mentor | myteam website challenge - Contact</title>
@@ -45,10 +47,28 @@
         </nav>
         <div class="contact">
           <div class="contact__about">
-            <h1 class="heading-small">Contact</h1>
+            <h1
+              class="heading-small"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              Contact
+            </h1>
             <div class="contact__about__info">
-              <h2 class="contact__heading">Ask us about</h2>
-              <div class="contact__about__info__text">
+              <h2
+                class="contact__heading"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                Ask us about
+              </h2>
+              <div
+                class="contact__about__info__text"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+                data-aos-delay="500"
+              >
                 <img
                   src="images/icon-person.svg"
                   alt="Icon of a person"
@@ -56,7 +76,12 @@
                 />
                 <p class="main-paragraph">The quality of our talent network</p>
               </div>
-              <div class="contact__about__info__text">
+              <div
+                class="contact__about__info__text"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="700"
+              >
                 <img
                   src="images/icon-cog.svg"
                   alt="Icon of a cog"
@@ -66,7 +91,12 @@
                   Usage & implementation of our software
                 </p>
               </div>
-              <div class="contact__about__info__text">
+              <div
+                class="contact__about__info__text"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+                data-aos-delay="900"
+              >
                 <img
                   src="images/icon-chart.svg"
                   alt="Icon of a person"
@@ -175,42 +205,9 @@
         </div>
       </div>
     </footer>
-
+    <!-- aos js-->
+    <script src="aos/dist/aos.js"></script>
     <!-- personal js -->
     <script src="app.js"></script>
   </body>
-  <!-- </html>home
-about
-
-contact us
-
-
-
-Contact
-
-Ask us about
-
-
-
-
-
-Name
-Email Address
-Company Name
-Title
-Message
-
-submit
-
-
-
-home
-about
-
-987  Hillcrest Lane
-Irvine, CA
-California 92714
-Call Us : 949-833-7432
-
-Copyright 2020. All Rights Reserved -->
 </html>

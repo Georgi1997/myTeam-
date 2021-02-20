@@ -23,6 +23,8 @@
       href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,300&display=swap"
       rel="stylesheet"
     /> -->
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="aos/dist/aos.css" />
     <!-- personal css -->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -39,9 +41,7 @@
                 <a href="#" class="navbar__link">home</a>
               </li>
               <li class="navbar__item">
-                <a href="about.html" target="_blank" class="navbar__link"
-                  >about</a
-                >
+                <a href="about.html" class="navbar__link">about</a>
               </li>
             </ul>
             <a href="contact.html" class="btn btn-primary">contact us</a>
@@ -54,9 +54,15 @@
         </nav>
         <div class="hero">
           <div class="hero__heading">
-            <h1 class="heading-large">Find the best <span>talent</span></h1>
+            <h1
+              class="heading-large"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Find the best <span>talent</span>
+            </h1>
           </div>
-          <div class="hero__info">
+          <div class="hero__info" data-aos="fade-left" data-aos-duration="2000">
             <p class="main-paragraph">
               Finding the right people and building high performing teams can be
               hard. Most companies aren’t tapping into the abundance of global
@@ -70,11 +76,19 @@
       <section class="section-features">
         <div class="features-wrapper">
           <div class="features">
-            <div class="features__heading">
+            <div
+              class="features__heading"
+              data-aos="fade-up-right"
+              data-aos-duration="1500"
+            >
               <h2>Build & manage distributed teams like no one else.</h2>
             </div>
             <div class="features__content">
-              <div class="features__feature">
+              <div
+                class="features__feature"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 <img
                   src="images/icon-person.svg"
                   alt="Icon of a person"
@@ -88,7 +102,11 @@
                   </p>
                 </div>
               </div>
-              <div class="features__feature">
+              <div
+                class="features__feature"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
                 <img
                   src="images/icon-cog.svg"
                   alt="Icon of a person"
@@ -102,7 +120,11 @@
                   </p>
                 </div>
               </div>
-              <div class="features__feature">
+              <div
+                class="features__feature"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 <img
                   src="images/icon-chart.svg"
                   alt="Icon of a person"
@@ -123,14 +145,22 @@
       <section class="section-testimonials">
         <div class="testimonials-wrapper">
           <div class="testimonials">
-            <div class="testimonials__heading">
+            <div
+              class="testimonials__heading"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
               <h2>
                 Delivering real results for top companies. Some of our
                 <span> success stories.</span>
               </h2>
             </div>
             <div class="testimonials__container">
-              <div class="testimonials__container__text">
+              <div
+                class="testimonials__container__text"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+              >
                 <img
                   src="images/icon-quotes.svg"
                   alt="Icon quote"
@@ -149,7 +179,11 @@
                   class="testimonials__container__img"
                 />
               </div>
-              <div class="testimonials__container__text">
+              <div
+                class="testimonials__container__text"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <img
                   src="images/icon-quotes.svg"
                   alt="Icon quote"
@@ -168,7 +202,11 @@
                   class="testimonials__container__img"
                 />
               </div>
-              <div class="testimonials__container__text">
+              <div
+                class="testimonials__container__text"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
                 <img
                   src="images/icon-quotes.svg"
                   alt="Icon quote"
@@ -231,7 +269,8 @@
         </div>
       </div>
     </footer>
-
+    <!-- aos js -->
+    <script src="aos/dist/aos.js"></script>
     <!-- personal js -->
     <script src="app.js"></script>
   </body>
