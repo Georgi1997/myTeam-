@@ -485,7 +485,7 @@ footer.footer {
   color: #ffffff; }
 
 .header-about {
-  background-image: url(../../images/bg-pattern-about-1-mobile-nav-1.svg);
+  background-image: url(../images/bg-pattern-about-1-mobile-nav-1.svg);
   background-repeat: no-repeat;
   background-position: bottom right -10rem; }
   @media only screen and (max-width: 550px) {
@@ -540,7 +540,7 @@ footer.footer {
 
 section.section-meet {
   background-color: #004047;
-  background-image: url(../../images/bg-pattern-about-2-contact-1.svg), url(../../images/bg-pattern-home-4-about-3.svg);
+  background-image: url(../images/bg-pattern-about-2-contact-1.svg), url(../images/bg-pattern-home-4-about-3.svg);
   background-position: top left -10rem, bottom right;
   background-repeat: no-repeat;
   padding: 10rem; }
@@ -649,7 +649,7 @@ section.section-meet {
 
 section.section-clients {
   background-color: #012f34;
-  background-image: url(../../images/bg-pattern-about-4.svg);
+  background-image: url(../images/bg-pattern-about-4.svg);
   background-repeat: no-repeat;
   background-position: top left;
   padding: 10rem; }
@@ -672,7 +672,7 @@ section.section-clients {
     width: 20rem; }
 
 .header-contact {
-  background-image: url(../../images/bg-pattern-about-2-contact-1.svg), url(../../images/bg-pattern-contact-2.svg);
+  background-image: url(../images/bg-pattern-about-2-contact-1.svg), url(../images/bg-pattern-contact-2.svg);
   background-position: center left -10rem, bottom right -10rem; }
   @media only screen and (max-width: 650px) {
     .header-contact {
